@@ -6,7 +6,18 @@ FilmCity is a REST API based on the Spring Boot Java framework. As part of the F
 
 https://github.com/Lupe13/filmcity.git
 
-## Request
+## **Tools**
+
+- Trello
+- Postman
+- Spring Boot
+- IntelliJ IDEA
+- Slack
+- Zoom
+- GitHub
+- Notion
+
+## REQUEST
 
 ``GET http://localhost:8080/movies``
 
@@ -94,7 +105,7 @@ https://github.com/Lupe13/filmcity.git
 ]
 ```
 
-## Add a movie
+## ADD A MOVIE
 
 Adds a new movie to the movies repository
 
@@ -116,7 +127,7 @@ Adds a new movie to the movies repository
     "score": 0
 }
 
-## Update a movie
+## UPDATE A MOVIE
 
 Updates the data of a movie
 
@@ -138,7 +149,7 @@ Updates the data of a movie
     "score": 0
 }
 
-## Deletes a movie
+## DELETE A MOVIE
 
 Delete a movie by an ID
 
@@ -158,7 +169,7 @@ Delete a movie by an ID
     "score": 0
 }
 
-## Set the movie as rented
+## SET DE MOVIE AS RENTED
 
 Set the movie with an specific ID as rented by the input name
 
@@ -180,7 +191,7 @@ Set the movie with an specific ID as rented by the input name
     "score": 0
 }
 
-## Set the movie as available to rent
+## SET THE MOVIE AS AVAILABLE TO RENT
 
 Set the movie with an specific ID as available to rent 
 
@@ -204,7 +215,7 @@ Set the movie with an specific ID as available to rent
 }
 ```
 
-## Rates the movie
+## RATES THE MOVIE
 
 Set the movie's score
 
@@ -212,6 +223,7 @@ Set the movie's score
 
 ``PUT http://localhost:8080/movies/5/rating``
 
+```
 {
     "id": 5,
     "title": "Lady Bird",
@@ -223,3 +235,12 @@ Set the movie's score
     "booked": false,
     "score": 7
 }
+```
+
+## **Team**
+
+- ayon79 
+- ElisabethIld 
+- pruizcas 
+- Yo123s 
+- Lupe13
