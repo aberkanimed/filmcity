@@ -115,6 +115,7 @@ Adds a new movie to the movies repository
 
 ### Response
 
+```
 {
     "id": 8,
     "title": "Titanic",
@@ -126,6 +127,7 @@ Adds a new movie to the movies repository
     "booked": false,
     "score": 0
 }
+```
 
 ## UPDATE A MOVIE
 
@@ -137,6 +139,7 @@ Updates the data of a movie
 
 ### Response
 
+```
 {
     "id": 8,
     "title": "Titanic",
@@ -148,6 +151,7 @@ Updates the data of a movie
     "booked": false,
     "score": 0
 }
+```
 
 ## DELETE A MOVIE
 
@@ -157,6 +161,7 @@ Delete a movie by an ID
 
 ### Response
 
+```
 {
     "id": 8,
     "title": "Titanic",
@@ -168,6 +173,7 @@ Delete a movie by an ID
     "booked": false,
     "score": 0
 }
+```
 
 ## SET DE MOVIE AS RENTED
 
@@ -179,6 +185,7 @@ Set the movie with an specific ID as rented by the input name
 
 ### Response
 
+```
 {
     "id": 5,
     "title": "Lady Bird",
@@ -190,7 +197,7 @@ Set the movie with an specific ID as rented by the input name
     "booked": false,
     "score": 0
 }
-
+```
 ## SET THE MOVIE AS AVAILABLE TO RENT
 
 Set the movie with an specific ID as available to rent 
